@@ -4,8 +4,7 @@ class Vv < Formula
   homepage 'http://www.creatis.insa-lyon.fr/rio/vv/'
   url 'http://www.creatis.insa-lyon.fr/rio/vv?action=AttachFile&do=get&target=vvSource-1.3.tar.gz'
   version '1.3'
-  head 'git://git.creatis.insa-lyon.fr/clitk.git'
-  sha1 '101687023788aed297ea4d8ebb601c9ac1be4378'
+  head 'git://git.creatis.insa-lyon.fr/clitk.git', :revision => '021b67c78ad71fa2b01e27bb944d3c019f18c493'
 
   option 'with-tools', "Build additional command-line tools" 
   option 'with-segmentation', "Build additional command-line segmentation tools" 
