@@ -1,6 +1,6 @@
 require 'formula'
 
-class Elastix < Formula
+class Itktools < Formula
   homepage 'https://github.com/ITKTools/ITKTools'
   url 'https://github.com/ITKTools/ITKTools/archive/v0.3.0.tar.gz'
   head 'https://github.com/ITKTools/ITKTools.git'
