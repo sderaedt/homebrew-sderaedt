@@ -9,6 +9,11 @@ class Itktools < Formula
   depends_on 'cmake' => :build
   depends_on 'insighttoolkit' => :build
 
+  patch do
+    # Add patch for output filename in create zero image
+    url 'https://github.com/sderaedt/ITKTools/commit/64f51d85acab8a6cd7817b9e8beed5cd5418ad4d.patch'
+  end
+
   def install
     args = std_cmake_args
     args.delete '-DCMAKE_BUILD_TYPE=None'
