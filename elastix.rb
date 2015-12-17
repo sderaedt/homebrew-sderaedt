@@ -16,6 +16,12 @@ class Elastix < Formula
       -DUSE_AdvancedKappaStatisticMetric=ON
       -DUSE_WeightedCombinationTransformElastix=ON
       -DUSE_DisplacementMagnitudePenalty=ON
+      -DUSE_NormalizedGradientCorrelationMetric=ON
+      -DUSE_RayCastResampleInterpolator=ON
+      -DUSE_RayCastInterpolator=ON
+      -DUSE_PatternIntensityMetric=ON
+      -DUSE_GradientDifferenceMetric=ON
+      -DUSE_Simplex=ON
     ]
 
     args.delete '-DCMAKE_BUILD_TYPE=None'
