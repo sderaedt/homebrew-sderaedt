@@ -3,7 +3,7 @@ require 'formula'
 class Elastix < Formula
   homepage 'http://elastix.isi.uu.nl'
   url 'http://elastix.isi.uu.nl/download/elastix_sources_v4.8.tar.bz2'
-  sha1 '8a17233ac4600e911a33587a403a3d9024de6914'
+  sha256 '9ec2bec426e8a249150fdf5af3a69037355ccb7b2c2d937bbfb7f0c563b6e81d'
   head 'https://github.com/mstaring/elastix.git'
 
   depends_on 'cmake' => :build
@@ -31,6 +31,7 @@ class Elastix < Formula
     mkdir 'build' do
       system "cmake", "../src"
       system "cmake", *args
+      interactive_shell
       system "make install"
     end
   end
