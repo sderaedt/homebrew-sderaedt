@@ -8,7 +8,7 @@ class Statismo < Formula
 
   patch do
     url "https://gist.githubusercontent.com/sderaedt/5399baa012acc40f1c18/raw/74e382a87338ce706046f6313b069c07ae490a94/statismoCMakeFix"
-    sha1 ""
+    sha256 ""
   end
 
   depends_on "cmake" => :build
