@@ -2,9 +2,9 @@ require 'formula'
 
 class Elastix < Formula
   homepage 'http://elastix.isi.uu.nl'
-  url 'http://elastix.isi.uu.nl/download/elastix_sources_v4.8.tar.bz2'
-  sha256 '9ec2bec426e8a249150fdf5af3a69037355ccb7b2c2d937bbfb7f0c563b6e81d'
-  head 'https://github.com/mstaring/elastix.git'
+  url 'https://github.com/SuperElastix/elastix/archive/4.9.0.tar.gz'
+  sha256 ''
+  head 'https://github.com/SuperElastix/elastix.git'
 
   depends_on 'cmake' => :build
   depends_on 'insighttoolkit' => :build
