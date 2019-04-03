@@ -3,7 +3,7 @@ require 'formula'
 class Rtk < Formula
   homepage 'http://openrtk.org'
   url 'https://github.com/SimonRit/RTK/archive/v1.2.0.tar.gz'
-  sha1 ''
+  sha256 ''
   head 'https://github.com/SimonRit/RTK.git'
 
   depends_on 'cmake' => :build

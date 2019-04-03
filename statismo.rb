@@ -3,7 +3,7 @@ require "formula"
 class Statismo < Formula
   homepage "https://github.com/statismo/statismo"
   url "https://github.com/statismo/statismo/archive/v0.10.2.tar.gz"
-  sha1 "c6f65bb7f37604aebbe40e767adbea4d39509050"
+  sha256 "c6f65bb7f37604aebbe40e767adbea4d39509050"
   head 'https://github.com/statismo/statismo.git'
 
   patch do

@@ -3,7 +3,7 @@ require 'formula'
 class Vtkdicom < Formula
   homepage 'http://dgobbi.github.io/vtk-dicom/'
   url 'https://github.com/dgobbi/vtk-dicom/archive/v0.6.7.tar.gz'
-  sha1 ''
+  sha256 ''
   
   head 'git://github.com/dgobbi/vtk-dicom.git'
 
